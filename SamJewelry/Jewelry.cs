@@ -34,6 +34,8 @@ namespace SamJewelry
         public int Bangles { get; set; }
 
         public int Longchains { get; set; }
+        public string JeWelryName { get; set; }
+        public Jewelrytype Typeofjewelry { get; internal set; }
         //public JewelryType TypeofJewelry { get; set; }
 
         #endregion

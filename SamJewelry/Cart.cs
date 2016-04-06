@@ -11,15 +11,18 @@ namespace SamJewelry
         #region Method
      
         // create an instance of Jewely
-       public Jewelry myCart = new Jewelry();
+       private static Jewelry myCart = new Jewelry();
 
         // Create AddToCart method, with input type Jewelry. 
+
         public void AddToCart(Jewelry nameofjewelry)
             {
             // Take input jewely count and add to myCart
-
+            
             myCart.Necklaces += nameofjewelry.Necklaces;
-
+            myCart.Pendents += nameofjewelry.Pendents;
+            myCart.Earrings += nameofjewelry.Earrings;
+            myCart.Longchains += nameofjewelry.Longchains;
             }
 
 
