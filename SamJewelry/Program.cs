@@ -15,19 +15,18 @@ namespace SamJewelry
         {
             
           //create an instance of Jewelry 
-            var Jewelry1 = new Jewelry();
-          Jewelry1.JeWelryName = "goldJewelry";
-            Jewelry1.Typeofjewelry = Jewelrytype.GoldJewelry;
+            var MyJewelry = new Jewelry();
+         MyJewelry.JeWelryName = "goldJewelry";
+           MyJewelry.Typeofjewelry = Jewelrytype.GoldJewelry;
 
             // Addtocart
 
-            Jewelry1.AddNecklacestocart(2);
+            MyJewelry.AddNecklacestocart(2);
+           
+           // View cart 
+            MyJewelry.viewcart();
 
-
-
-
-            // View cart 
-            Jewelry1.viewcart();
+            Console.ReadLine();
 
 
 
