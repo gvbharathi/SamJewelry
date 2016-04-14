@@ -23,14 +23,13 @@ namespace SamJewelry
         /// <summary>
         /// Name of the Jewelry
         /// </summary>
-
         public int NumberofNeckleces { get; set; }
         /// <summary>
         /// Name of the Jewelry
         /// </summary>
-        public string JeWelryName { get; set; }
-        public Jewelrytype Typeofjewelry { get; internal set; }
-        //public JewelryType TypeofJewelry { get; set; }
+        public string JewelryName { get; set; }
+        public Jewelrytype TypeofJewelry { get;  set; }
+        
         #endregion
         #region methods
         public void AddToCart(int necklacescount)

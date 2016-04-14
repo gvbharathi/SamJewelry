@@ -6,31 +6,42 @@ using System.Threading.Tasks;
 
 namespace SamJewelry
 {
-  
-    class Program
-    {
-       
+  class Program
+       {
+       static void Main(string[] args)
+           {
+            Console.WriteLine("***********Welcome to SamJewelry***********");
+            Console.WriteLine("1. Create a Jewelry ");
+            Console.WriteLine("2. Add To Cart");
+            Console.WriteLine("3. View Cart");
+            Console.WriteLine("0. Exit");
 
-        static void Main(string[] args)
-        {
-            
-          //create an instance of Jewelry 
-            var MyJewelry = new Jewelry();
-         MyJewelry.JeWelryName = "goldJewelry";
-           MyJewelry.Typeofjewelry = Jewelrytype.GoldJewelry;
+            var option = Console.ReadLine();
+            switch(option)
 
-            // Addtocart
+            {
+                case "1":
 
-            MyJewelry.AddNecklacestocart(2);
-           
-           // View cart 
-            MyJewelry.viewcart();
+                    Console.WriteLine("What is the name of the Jewelry");
+                    var jewelryName = Console.ReadLine();
+                    var MyJewelry = Store.CreateJewelry(jewelryName, 2, Jewelrytype.GoldJewelry);
 
-            Console.ReadLine();
+                    Console.WriteLine("Jewelry Name:{0},Number of Jewelry{1}, Type of Jewelry:{2}",
+                               MyJewelry.JewelryName, MyJewelry.NumberofNeckleces, MyJewelry.TypeofJewelry);
+                    break;
+                case "2":
+                    break;
+                case "0":
 
+                    Console.WriteLine("Good bye");
+                    return;
 
+                default:
+                    break;
 
+              
+            }
 
-        }
+}
     }
 }

@@ -1,0 +1,8 @@
+C:\Bharathi\SamJewelry\SamJewelry\SamJewelry\bin\Debug\SamJewelry.exe.config
+C:\Bharathi\Projects\SamJewelry\SamJewelry\SamJewelry\bin\Debug\SamJewelry.exe.config
+C:\Bharathi\Github\SamJewelry\SamJewelry\bin\Debug\SamJewelry.exe.config
+C:\Bharathi\Github\SamJewelry\SamJewelry\bin\Debug\SamJewelry.exe
+C:\Bharathi\Github\SamJewelry\SamJewelry\bin\Debug\SamJewelry.pdb
+C:\Bharathi\Github\SamJewelry\SamJewelry\obj\Debug\SamJewelry.csprojResolveAssemblyReference.cache
+C:\Bharathi\Github\SamJewelry\SamJewelry\obj\Debug\SamJewelry.exe
+C:\Bharathi\Github\SamJewelry\SamJewelry\obj\Debug\SamJewelry.pdb
