@@ -7,12 +7,21 @@ using System.Threading.Tasks;
 namespace SamJewelry
 
 {
-    public enum Jewelrytype
+    public enum MeterialName
     {
-        GoldJewelry,
-        silverJewelry,
+        Gold,
+        silver,
 
     }
+
+    public enum JewelryName
+    {
+        Necklace,
+        Earrings,
+        Bangles,
+    }
+
+
 
     /// <summary>
     /// This is about Jewelry Collection
@@ -21,31 +30,27 @@ namespace SamJewelry
     {
         #region  properties
         /// <summary>
-        /// Name of the Jewelry
+        /// Meterial type
         /// </summary>
-        public int NumberofNeckleces { get; set; }
+        public MeterialName NameofMeterial{ get; set; }
         /// <summary>
         /// Name of the Jewelry
         /// </summary>
-        public string JewelryName { get; set; }
-        public Jewelrytype TypeofJewelry { get;  set; }
+        public JewelryName NameofJewelry { get; set; }
+        /// <summary>
+        ///  Cost of the Jewelry
+        /// </summary>
+        public  Double CostofJewelry { get;  set; }
+        /// <summary>
+        /// Jewelry Quantity
+        /// </summary>
+        public int QuantityofJewelry { get; set; }
+        /// <param name="necklacescount"></param>
         
         #endregion
-        #region methods
-        public void AddToCart(int necklacescount)
-        {
-            NumberofNeckleces += necklacescount;
-        }
-        
-            #endregion
-
-         public void viewcart()
-        {
-            Console.WriteLine("No of Necklaces:  " + NumberofNeckleces);
-             
-        }
+      
     }
 
-  }
+}
 
    
