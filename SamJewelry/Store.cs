@@ -6,28 +6,29 @@ using System.Threading.Tasks;
 
 namespace SamJewelry
 {
-    public static class Store
+   public class Store
     {
         ///<summary>
         /// Create a new Jewelry for the user
-        /// </summary>
-        /// <param name="jewelryName">Name of Jewelry</param>
-        /// <param name="numberofJewelry"> number of your Jewelry</param>
-        /// <param name="typeofJewelry">The type of Jewelry</param>
+        /// <param name="NameofMeterial">Name of Meterial</param>
+        /// <param name="NameofJewelry"> name of your Jewelry</param>
+        /// <param name="CostofJewelry"> Cost of Jewelry</param>
+        /// <param name="QuantityofJewelry"> Quantity of Jewelry</param>
         /// <return> New Jewelry</return>
-        public static Jewelry CreateJewelry(string JewelryName, int numberofJewelry, Jewelrytype typeofJewelry)
-
+        /// </summary>
+        public static Jewelry CreateJewelry(MeterialName NameofMeterial, JewelryName NameofJewelry, double CostofJewelry, int QuantityofJewelry)
         {
-            var Myjewelry = new Jewelry
+            var MyJewelry = new Jewelry
             {
-                JewelryName = JewelryName,
-                NumberofNeckleces = numberofJewelry,
-                TypeofJewelry = typeofJewelry
-
+                NameofMeterial = NameofMeterial,
+                NameofJewelry = NameofJewelry,
+                CostofJewelry = CostofJewelry,
+                QuantityofJewelry = QuantityofJewelry
 
             };
-            return Myjewelry;
+            return MyJewelry;
+
         }
-        
-        }
+    }
 }
+
