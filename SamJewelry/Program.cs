@@ -22,7 +22,7 @@ namespace SamJewelry
 
             do
             {
-                Console.WriteLine("*************Welcome To GVRJewelry**********");
+                Console.WriteLine("*************Welcome To SamJewelry**********");
 
                 Console.WriteLine("\n\nPlease Select one of the options below");
 

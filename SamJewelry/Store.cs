@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SamJewelry
 {
-   public class Store
+   static class Store
     {
         ///<summary>
         /// Create a new Jewelry for the user
