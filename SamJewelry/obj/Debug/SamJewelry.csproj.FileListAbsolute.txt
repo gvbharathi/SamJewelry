@@ -6,3 +6,7 @@ C:\Bharathi\Github\SamJewelry\SamJewelry\bin\Debug\SamJewelry.pdb
 C:\Bharathi\Github\SamJewelry\SamJewelry\obj\Debug\SamJewelry.csprojResolveAssemblyReference.cache
 C:\Bharathi\Github\SamJewelry\SamJewelry\obj\Debug\SamJewelry.exe
 C:\Bharathi\Github\SamJewelry\SamJewelry\obj\Debug\SamJewelry.pdb
+C:\Bharathi\Github\SamJewelry\SamJewelry\bin\Debug\EntityFramework.dll
+C:\Bharathi\Github\SamJewelry\SamJewelry\bin\Debug\EntityFramework.SqlServer.dll
+C:\Bharathi\Github\SamJewelry\SamJewelry\bin\Debug\EntityFramework.xml
+C:\Bharathi\Github\SamJewelry\SamJewelry\bin\Debug\EntityFramework.SqlServer.xml

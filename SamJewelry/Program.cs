@@ -19,10 +19,22 @@ namespace SamJewelry
             JewelryName myJewelryName = JewelryName.Necklace;
             MeterialName myJewelryMeterial = MeterialName.Gold;
             var option = "1";
+            Console.WriteLine("*************Welcome To SamJewelry**********");
 
-            do
+            Console.WriteLine("Enter Customer Name:");
+            string myCustomerName=Console.ReadLine();
+            Console.WriteLine("Enter Address:");
+            string myAddress = Console.ReadLine();
+            Console.WriteLine("{0},{1}", myCustomerName,myAddress);
+            Customer myCustomer = new Customer()
             {
-                Console.WriteLine("*************Welcome To SamJewelry**********");
+                CustomerName = myCustomerName,
+                Address = myAddress,
+
+            };
+         do
+            {
+               
 
                 Console.WriteLine("\n\nPlease Select one of the options below");
 
